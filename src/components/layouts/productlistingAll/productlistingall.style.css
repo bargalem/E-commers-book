@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+
+
+}
+.grid-Item{
+   display: flex;
+   justify-content: center;
+}
+.productlistingall-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}

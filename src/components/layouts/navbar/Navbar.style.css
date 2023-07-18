@@ -1,0 +1,52 @@
+.navbar-Container{
+    position: absolute;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem 0;
+}
+.logo{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 700;
+}
+.nav-links{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.nav-links:hover{
+    color: orange;
+    cursor: pointer;
+}
+.text{
+    color: orange;
+}
+.background-dark{
+    background-color: #333;
+}
+.background-transparant{
+    background-color:transparent;
+}
+.relative{
+    position: relative !important;
+}
+.carticon {
+    
+    
+    width: 30px;
+    margin-left: 10px;
+   align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.nav-links-Container{
+    display: flex;
+    align-items: center;
+}

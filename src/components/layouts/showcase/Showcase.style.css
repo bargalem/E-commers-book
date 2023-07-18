@@ -1,0 +1,22 @@
+.showcase-Container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../../asset/home-bg-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.showcase-Content{
+    width: fit-content;
+    z-index: 1;
+}
+.showcase-Content h1,p{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px ;
+
+}

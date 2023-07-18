@@ -1,0 +1,48 @@
+.product-listing-card{
+    border: 1px solid lightgray;
+    width: fit-content;
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+     text-align: center; 
+}
+.product-listing-image-container{ 
+    margin-bottom: 10px;
+    
+}
+
+.product-listing-img{
+  width: 120px;
+  object-fit: contain;
+}
+.product-listing-details-container h4{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.product-listing-details-container h3,div{
+    margin-bottom: 5px;
+    
+    
+}
+.product-listing-details-container{
+
+    padding-top: 2rem ;
+    min-height: 10rem;
+}
+
+.product-listing-button{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    transition: 0.3s ease-in;
+}
+.product-listing-button:hover{
+    background-color: black;
+}

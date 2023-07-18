@@ -1,0 +1,51 @@
+.detail-section-container{
+padding-top: 8rem;
+padding-bottom: 5rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.book-img-container,.book-detail-container{
+width: 50%;
+
+}
+.book-img-container{
+    text-align: center;
+}
+.book-img-container img{
+height: 500px;
+border: 1px solid rgb(65, 64, 64);
+
+}
+.book-detail-container h2{
+font-size: 2rem;
+font-weight: 400;
+font-family: 'fantasy';
+color: orangered;
+
+}
+.book-detail-container div{
+padding: 0.8rem 0;
+
+}
+.book-description{
+    line-height: 1.7rem;
+}
+.cart-button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    margin-top:2rem ;
+    box-shadow: 2px 2px 5px rgb(131, 130, 130);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.cart-button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+

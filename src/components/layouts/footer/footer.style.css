@@ -1,0 +1,43 @@
+.footer-container{
+background-color: rgb(19, 18, 18);
+padding: 5rem 0;
+
+}
+.footer-container h2{
+    color: white;
+}
+.footer-form{
+    padding-top: 3rem;
+    width:40%;
+}
+.form-group{
+    padding: 1rem 0;
+}
+
+.form-lable{
+    color: white;
+    padding-bottom: 10px ;
+    display: inline-block;
+}
+.form-input{
+
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+
+}
+.form-submit{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 0.8rem 2rem;
+display: inline-block;
+transition: 0.3s ease-in;
+
+}
+.form-submit:hover{
+    background-color: white;
+    color: black;
+}
